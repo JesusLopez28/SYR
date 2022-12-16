@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragDos" type="id" />
+    <item name="btn_verCinco" type="id" />
+    <item name="btn_verSeis" type="id" />
+    <item name="atrasNoticas" type="id" />
+    <item name="btn_verCuatro" type="id" />
+</resources>

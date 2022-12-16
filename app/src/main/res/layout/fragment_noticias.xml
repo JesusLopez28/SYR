@@ -2,11 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragDos"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btn_verDos"
+        android:id="@+id/btn_verCinco"
         android:layout_width="83dp"
         android:layout_height="35dp"
         android:backgroundTint="#A6A6A6"
@@ -18,7 +19,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/btn_verTres"
+        android:id="@+id/btn_verSeis"
         android:layout_width="79dp"
         android:layout_height="36dp"
         android:backgroundTint="#A6A6A6"
@@ -33,7 +34,7 @@
         android:id="@+id/textView6"
         android:layout_width="353dp"
         android:layout_height="51dp"
-        android:text="PARTICIPA SEMADET EN LA PRIMERA CUMBRE DE FAUNA SILVESTRE EN JALISCO"
+        android:text="ANUNCIA SEMADET PLATAFORMA DE MANEJO DEL FUEGO "
         android:textAlignment="textStart"
         android:textColor="#34A639"
         android:textSize="16sp"
@@ -47,7 +48,7 @@
         android:layout_width="165dp"
         android:layout_height="84dp"
         android:layout_marginTop="20dp"
-        android:text="- A la par se repararán caminos al interior del ANP... 19-Sep-2022"
+        android:text="- El saneamiento forestal es parte de las acciones para la recuperación de árboles infectados... 26-Jul-2022"
         android:textAlignment="textStart"
         android:textColor="#000000"
         android:textSize="14sp"
@@ -63,7 +64,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="8dp"
-        android:text="- Este lunes inició la Primera Cumbre de Fauna Silvestre organizada por la Unidad de Rescate de... 05-Oct-2022 "
+        android:text="- Jalisco es el único estado en el país con un sistema de información con actualización contínua sobre incendios forestales... 11-Nov-2022 "
         android:textAlignment="textStart"
         android:textColor="#000000"
         android:textSize="14sp"
@@ -76,7 +77,7 @@
         android:layout_width="344dp"
         android:layout_height="42dp"
         android:layout_marginTop="4dp"
-        android:text="COMIENZAN OBRAS DE RESTAURACIÓN Y CONSERVACIÓN EN EL BOSQUE LA PRIMAVERA"
+        android:text="AVANZA EL SANEAMIENTO DE MUÉRDAGO VERDADERO EN EL BOSQUE LA PRIMAVERA "
         android:textAlignment="textStart"
         android:textColor="#34A639"
         android:textSize="16sp"
@@ -110,7 +111,7 @@
         android:layout_width="348dp"
         android:layout_height="70dp"
         android:layout_marginTop="8dp"
-        android:text="REALIZAN ACCIONES DE RESTAURACIÓN DE SUELOS Y PREVENCIÓN DE INCENDIOS FORESTALES "
+        android:text="APOYAN SEMADET Y FIPRODEFO DESARROLLO RURAL SUSTENTABLE EN LA REGIÓN NORTE DE JALISCO"
         android:textAlignment="textStart"
         android:textColor="#34A639"
         android:textSize="16sp"
@@ -150,14 +151,14 @@
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.058"
-        app:srcCompat="@drawable/imagen1_c" />
+        app:srcCompat="@drawable/imagen4" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="165dp"
         android:layout_height="84dp"
         android:layout_marginTop="8dp"
-        android:text="-  Con el fin de mitigar los efectos de incendios forestales así como prevenir eventos a futuro,... 15-Nov-2022 "
+        android:text="Se apoyan 25 proyectos con un recurso económico de un millón 132 mil 900 pesos... 08-Septiembre-2022"
         android:textAlignment="textStart"
         android:textColor="#000000"
         android:textSize="14sp"
@@ -188,7 +189,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/imagen2" />
+        app:srcCompat="@drawable/imagen5" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -199,23 +200,25 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:srcCompat="@drawable/imagen3" />
+        app:srcCompat="@drawable/imagen6" />
 
     <Button
-        android:id="@+id/siguienteNoticias"
+        android:id="@+id/atrasNoticas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#A6A6A6"
-        android:text="SIGUIENTE"
+        android:onClick="Atras"
+        android:text="ATRAS"
         android:textColor="#E4E4E4"
         android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Button
-        android:id="@+id/btn_verUno"
+        android:id="@+id/btn_verCuatro"
         android:layout_width="79dp"
         android:layout_height="36dp"
         android:backgroundTint="#A6A6A6"
@@ -225,7 +228,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
