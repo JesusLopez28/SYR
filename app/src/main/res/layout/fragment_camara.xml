@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CamaraFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="Escaneo QR"
+        android:textSize="35dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="494dp"
+        android:src="@drawable/qr" />
+
+    <Button
+        android:id="@+id/qr_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_marginHorizontal="100dp"
+        android:text="ESCANEAR QR"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hola"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:textColor="#0000FF"
+        android:id="@+id/link"/>
+
+    <Button
+        android:id="@+id/link_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="570dp"
+        android:layout_marginHorizontal="100dp"
+        android:text="IR AL SITIO WEB"
+        android:enabled="false"/>
+
+</RelativeLayout>
